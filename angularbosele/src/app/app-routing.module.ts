@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = 
-[{ path: '', component: NavbarComponent },
+[{ path: 'nav', component: NavbarComponent },
 { path: 'home', component: HomepageComponent },
 { path: 'footer', component: FooterComponent },
 { path: 'product', component: ProductsComponent },
